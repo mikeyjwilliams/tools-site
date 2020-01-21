@@ -8,7 +8,7 @@ import {
   CardImg,
   CardText,
   CardBody,
-  CardTitle
+  CardTitle,
 } from 'reactstrap';
 
 function Details(props) {
@@ -61,6 +61,7 @@ const TextCard = styled(Card)`
   border: 1px solid red;
   border-radius: 10px;
   padding: 15px;
+  margin-bottom: 25px;
 `;
 
 const ImageCard = styled(Card)`
